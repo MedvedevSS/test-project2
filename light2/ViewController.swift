@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    // MARK: - Actions
     @IBAction func startButton(_ sender: UIButton) {
         if redSquare.alpha == 1 {
             redSquare.alpha = 0.3
