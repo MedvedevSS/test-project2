@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - Outlets
     @IBOutlet weak var redSquare: UIView!
     @IBOutlet weak var yellowSquare: UIView!
     @IBOutlet weak var greenSquare: UIView!
