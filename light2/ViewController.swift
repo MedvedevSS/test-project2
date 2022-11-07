@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // MARK: - ViewDidLoad
         redSquare.alpha = 1
         redSquare.layer.cornerRadius = redSquare.frame.width / 2
         
